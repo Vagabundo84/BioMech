@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6047FD0C2271EA5000C3A823 /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6047FD0B2271EA5000C3A823 /* AboutUsViewController.swift */; };
+		6054B77B2277163100D1F1B2 /* SocialTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6054B77A2277163100D1F1B2 /* SocialTableViewController.swift */; };
+		6054B77D2277164F00D1F1B2 /* SocialTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6054B77C2277164F00D1F1B2 /* SocialTableViewCell.swift */; };
+		6056521C2275D92F00618D79 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6056521B2275D92E00618D79 /* MessageUI.framework */; };
+		609EA0AD2270C2FF00738C85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609EA0AC2270C2FF00738C85 /* AppDelegate.swift */; };
+		609EA0AF2270C2FF00738C85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609EA0AE2270C2FF00738C85 /* ViewController.swift */; };
+		609EA0B22270C2FF00738C85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 609EA0B02270C2FF00738C85 /* Main.storyboard */; };
+		609EA0B42270C30000738C85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 609EA0B32270C30000738C85 /* Assets.xcassets */; };
+		609EA0B72270C30000738C85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 609EA0B52270C30000738C85 /* LaunchScreen.storyboard */; };
+		60D7244B2275CBD20000F9A7 /* EmailUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D7244A2275CBD20000F9A7 /* EmailUsViewController.swift */; };
+		60F769352273477D002BF120 /* ContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F769342273477D002BF120 /* ContactUsViewController.swift */; };
+		60F7693A227349FC002BF120 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60F76939227349FC002BF120 /* MapKit.framework */; };
+		60FC934E22775095006A55B5 /* SocialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60FC934D22775094006A55B5 /* SocialViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6047FD0B2271EA5000C3A823 /* AboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
+		6054B77A2277163100D1F1B2 /* SocialTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialTableViewController.swift; sourceTree = "<group>"; };
+		6054B77C2277164F00D1F1B2 /* SocialTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialTableViewCell.swift; sourceTree = "<group>"; };
+		6056521B2275D92E00618D79 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		609EA0A92270C2FF00738C85 /* BioMech Sensor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BioMech Sensor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		609EA0AC2270C2FF00738C85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		609EA0AE2270C2FF00738C85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		609EA0B12270C2FF00738C85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		609EA0B32270C30000738C85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		609EA0B62270C30000738C85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		609EA0B82270C30000738C85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60D7244A2275CBD20000F9A7 /* EmailUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailUsViewController.swift; sourceTree = "<group>"; };
+		60F769342273477D002BF120 /* ContactUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsViewController.swift; sourceTree = "<group>"; };
+		60F76939227349FC002BF120 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		60FC934D22775094006A55B5 /* SocialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		609EA0A62270C2FF00738C85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6056521C2275D92F00618D79 /* MessageUI.framework in Frameworks */,
+				60F7693A227349FC002BF120 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6047FD0A2271E9F200C3A823 /* About Us */ = {
+			isa = PBXGroup;
+			children = (
+				6047FD0B2271EA5000C3A823 /* AboutUsViewController.swift */,
+			);
+			path = "About Us";
+			sourceTree = "<group>";
+		};
+		6054B7792277160200D1F1B2 /* Social */ = {
+			isa = PBXGroup;
+			children = (
+				6054B77A2277163100D1F1B2 /* SocialTableViewController.swift */,
+				6054B77C2277164F00D1F1B2 /* SocialTableViewCell.swift */,
+				60FC934D22775094006A55B5 /* SocialViewController.swift */,
+			);
+			path = Social;
+			sourceTree = "<group>";
+		};
+		609EA0A02270C2FF00738C85 = {
+			isa = PBXGroup;
+			children = (
+				609EA0AB2270C2FF00738C85 /* BioMech Sensor */,
+				609EA0AA2270C2FF00738C85 /* Products */,
+				60F76936227349F7002BF120 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		609EA0AA2270C2FF00738C85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				609EA0A92270C2FF00738C85 /* BioMech Sensor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		609EA0AB2270C2FF00738C85 /* BioMech Sensor */ = {
+			isa = PBXGroup;
+			children = (
+				609EA0AC2270C2FF00738C85 /* AppDelegate.swift */,
+				609EA0AE2270C2FF00738C85 /* ViewController.swift */,
+				6047FD0A2271E9F200C3A823 /* About Us */,
+				60F769332273474C002BF120 /* Contact Us */,
+				6054B7792277160200D1F1B2 /* Social */,
+				609EA0B02270C2FF00738C85 /* Main.storyboard */,
+				609EA0B32270C30000738C85 /* Assets.xcassets */,
+				609EA0B52270C30000738C85 /* LaunchScreen.storyboard */,
+				609EA0B82270C30000738C85 /* Info.plist */,
+			);
+			path = "BioMech Sensor";
+			sourceTree = "<group>";
+		};
+		60F769332273474C002BF120 /* Contact Us */ = {
+			isa = PBXGroup;
+			children = (
+				60F769342273477D002BF120 /* ContactUsViewController.swift */,
+				60D7244A2275CBD20000F9A7 /* EmailUsViewController.swift */,
+			);
+			path = "Contact Us";
+			sourceTree = "<group>";
+		};
+		60F76936227349F7002BF120 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6056521B2275D92E00618D79 /* MessageUI.framework */,
+				60F76939227349FC002BF120 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		609EA0A82270C2FF00738C85 /* BioMech Sensor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 609EA0BB2270C30000738C85 /* Build configuration list for PBXNativeTarget "BioMech Sensor" */;
+			buildPhases = (
+				609EA0A52270C2FF00738C85 /* Sources */,
+				609EA0A62270C2FF00738C85 /* Frameworks */,
+				609EA0A72270C2FF00738C85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BioMech Sensor";
+			productName = "BioMech Sensor";
+			productReference = 609EA0A92270C2FF00738C85 /* BioMech Sensor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		609EA0A12270C2FF00738C85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Vagabundo;
+				TargetAttributes = {
+					609EA0A82270C2FF00738C85 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 609EA0A42270C2FF00738C85 /* Build configuration list for PBXProject "BioMech Sensor" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 609EA0A02270C2FF00738C85;
+			productRefGroup = 609EA0AA2270C2FF00738C85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				609EA0A82270C2FF00738C85 /* BioMech Sensor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		609EA0A72270C2FF00738C85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				609EA0B72270C30000738C85 /* LaunchScreen.storyboard in Resources */,
+				609EA0B42270C30000738C85 /* Assets.xcassets in Resources */,
+				609EA0B22270C2FF00738C85 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		609EA0A52270C2FF00738C85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60D7244B2275CBD20000F9A7 /* EmailUsViewController.swift in Sources */,
+				609EA0AF2270C2FF00738C85 /* ViewController.swift in Sources */,
+				6047FD0C2271EA5000C3A823 /* AboutUsViewController.swift in Sources */,
+				609EA0AD2270C2FF00738C85 /* AppDelegate.swift in Sources */,
+				6054B77D2277164F00D1F1B2 /* SocialTableViewCell.swift in Sources */,
+				6054B77B2277163100D1F1B2 /* SocialTableViewController.swift in Sources */,
+				60F769352273477D002BF120 /* ContactUsViewController.swift in Sources */,
+				60FC934E22775095006A55B5 /* SocialViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		609EA0B02270C2FF00738C85 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				609EA0B12270C2FF00738C85 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		609EA0B52270C30000738C85 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				609EA0B62270C30000738C85 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		609EA0B92270C30000738C85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		609EA0BA2270C30000738C85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		609EA0BC2270C30000738C85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RFHUV7TU8X;
+				INFOPLIST_FILE = "BioMech Sensor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vagabundo.BioMech-Sensor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		609EA0BD2270C30000738C85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RFHUV7TU8X;
+				INFOPLIST_FILE = "BioMech Sensor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vagabundo.BioMech-Sensor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		609EA0A42270C2FF00738C85 /* Build configuration list for PBXProject "BioMech Sensor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				609EA0B92270C30000738C85 /* Debug */,
+				609EA0BA2270C30000738C85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		609EA0BB2270C30000738C85 /* Build configuration list for PBXNativeTarget "BioMech Sensor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				609EA0BC2270C30000738C85 /* Debug */,
+				609EA0BD2270C30000738C85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 609EA0A12270C2FF00738C85 /* Project object */;
+}
